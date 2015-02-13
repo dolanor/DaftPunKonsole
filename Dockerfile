@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM onlinelabs/ubuntu
 MAINTAINER "Tanguy ⧓ Herrmann <dolanorgit@evereska.org>"
 
 RUN apt-get update -y && apt-get install git bundler npm -y
